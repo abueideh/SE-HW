@@ -31,4 +31,18 @@ public class ShoppingCartTesting {
 		assertTrue(cart.getCount()==1);
 		assertTrue(cart.getTotalPrice()==127);
 	}
+	
+	@Test
+	public void TC3test() {
+		Product book1 = new Product();
+		book1.setName("Java Book");
+		book1.setPrice(127);
+		Product book2 = new Product();
+		book2.setName("Web design Book");
+		book2.setPrice(100);
+		cart.add(book1);
+		cart.add(book2);
+		assertTrue(cart.getCount()==2);
+		assertTrue(cart.getTotalPrice()==227);
+	}
 }

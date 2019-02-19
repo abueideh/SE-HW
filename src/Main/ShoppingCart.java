@@ -15,7 +15,7 @@ public class ShoppingCart {
 
 	public void add(Product book) {
 		count++;
-		price = book.getPrice();
+		price += book.getPrice();
 		
 	}
 
