@@ -1,7 +1,7 @@
 <project default="compile">
-<property name ="src.java.dir" location="./SE HW One/src/Main"/>
-<property name ="src.test.dir" location="./SE Hw One/src/Testing"/>
-<property name ="result.dir" location="./SE Hw One/target"/>
+<property name ="src.java.dir" location="./src/Main"/>
+<property name ="src.test.dir" location="./src/Testing"/>
+<property name ="result.dir" location="./target"/>
 <property name ="result.javaclasses.dir" location="${result.dir}/classes"/>
 <property name ="result.testclasses.dir" location="${result.dir}/testclasses"/>
 <property name ="result.jar.file" location="./Myproduct.jar"/>
