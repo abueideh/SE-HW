@@ -18,8 +18,6 @@
               </jar>
         </target>
 
-</project>
-
 
 <path id="NecessaryLibraries">
         <pathelement location="./Libraries/junit-4.12.jar"/>
@@ -56,4 +54,5 @@
             
         </junit>
     </target>
-    
+
+</project>
